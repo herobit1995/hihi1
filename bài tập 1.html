@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action=""
+      style="background-color: aqua; width: 500px; height: 250px; padding: 10px"
+    >
+      <table style="background-color: aliceblue; width: 100%; height: 100%">
+        <tr bgcolor="orangered">
+          <th colspan="4" align="center" style="color: white">
+            SỞ THÍCH CỦA BẠN
+          </th>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="name" style="color: blue">Họ và tên</label>
+          </td>
+          <td colspan="3">
+            <input type="text" name="name" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="email" style="color: blue">Email</label>
+          </td>
+          <td colspan="3">
+            <input type="email" name="email" id="email" />
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4" valign="top" align="right">
+            <label for="hobbit" style="color: blue">Sở thích</label>
+          </td>
+          <td>
+            <input type="checkbox" name="sport" id="sport" />
+            <label for="sport" style="color: orangered">Thể thao</label>
+          </td>
+          <td>
+            <input type="checkbox" name="music" id="music" />
+            <label for="music" style="color: orangered">Âm nhạc</label>
+          </td>
+          <td>
+            <input type="checkbox" name="book" id="book" />
+            <label for="book" style="color: orangered">Đọc sách</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="web" id="web" />
+            <label for="web" style="color: orangered">Lướt web</label>
+          </td>
+          <td>
+            <input type="checkbox" name="game" id="game" />
+            <label for="game" style="color: orangered">Chơi game</label>
+          </td>
+          <td>
+            <input type="checkbox" name="mov" id="mov" />
+            <label for="mov" style="color: orangered">Điện ảnh</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="trave" id="trave" />
+            <label for="trave" style="color: orangered">Du lịch</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Gửi thông tin" />
+          </td>
+          <td colspan="2">
+            <input type="reset" value="Nhập lại" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br />
+    <form action="">
+      <label for="" style="color: blue">ĐĂNG KÝ HỌC VIÊN</label><br />
+      <label for="name" style="color: blue">Họ và tên</label>
+      <input type="text" name="name" id="name" /><br />
+      <label for="birthday" style="color: blue">Họ và tên</label>
+      <input type="datetime" name="birthday" id="birthday" /><br />
+      <label for="gender">Giới tính: </label>
+      <input type="radio" id="male" name="gender" value="1" />
+      <label for="male">Nam</label>
+      <input type="radio" id="famale" name="gender" value="0" />
+      <label for="famale">Nữ</label><br />
+      <label for="add">Địa chỉ</label>
+      <textarea name="add" id="add" cols="30" rows="10"></textarea><br />
+      <label for="class">Lớp</label>
+      <select name="class" id="class">
+        <option>---Chọn lớp---</option>
+        <option value="11A">11A</option>
+        <option value="11B">11B</option></select
+      ><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" /><br />
+      <label for="phone">Phone</label>
+      <input type="number" name="phone" id="phone" /><br />
+      <input type="submit" value="Đăng ký" />
+      <input type="reset" value="Nhập lại" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <header><h1>Nhập đi chần chờ chi</h1></header>
+    <main>
+      <form action="" id="form-dang-ky">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="age">Tuổi: </label>
+        <input type="number" id="age" name="age" /><br />
+        <label for="question-1">Ra trường chưa cu</label>
+        <input type="checkbox" id="question-1" name="question-1" /><br />
+        <label for="PoB">Nơi sinh: </label>
+        <select id="PoB" name="PoB">
+          <option value="43">Đà Nẵng</option>
+          <option value="92">Quảng Nam</option>
+        </select>
+        <br />
+        <label for="hobbit">Sở thích: </label><br />
+        <label for="chess">chơi cờ</label>
+        <input type="checkbox" name="chess" id="chess" /><br />
+        <label for="game">trò chơi điện tử</label>
+        <input type="checkbox" name="game" id="game" /><br />
+        <label for="gender">Giới tính: </label>
+        <label for="male">Nam</label>
+        <input type="radio" id="male" name="gender" value="1" />
+        <label for="famale">Nữ</label>
+        <input type="radio" id="famale" name="gender" value="0" /><br />
+        <input type="submit" value="Đăng ký" />
+        <fieldset>
+          <legend>Form đăng Nhập</legend>
+          <form action="" id="form-dang-nhap">
+            <input type="email" placeholder="Điền email" />
+            <input type="password" placeholder="Vui lòng nhập pass" />
+            <input type="submit" value="Đăng nhập" />
+            <input type="reset" value="Reset Form" />
+          </form>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
